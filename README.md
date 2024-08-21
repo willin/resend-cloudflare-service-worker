@@ -9,6 +9,7 @@
 
 ```bash
 ### Only For Github Actions
+CLOUDFLARE_ACCOUNT_ID="xxx"
 CLOUDFLARE_API_TOKEN="xxx"
 
 ### Resend mail sending service, you can register for free sending
@@ -69,4 +70,4 @@ Donation ways:
 
 ## License
 
-Apache-2.0
+MIT

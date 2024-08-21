@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**.md'
   workflow_dispatch:
 jobs:
   deploy:
@@ -21,6 +23,7 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           secrets: |
             RESEND_API_KEY
             EMAIL_USERNAME

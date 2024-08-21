@@ -8,7 +8,8 @@
 2. 在项目 `Settings` 里设置 `Actions Secrets`，添加如下环境变量：
 
 ```bash
-### Only For Github Actions
+### 仅用于 Github Actions
+CLOUDFLARE_ACCOUNT_ID="xxx"
 CLOUDFLARE_API_TOKEN="xxx"
 
 ### Resend 邮件发送服务，可自行注册免费发送

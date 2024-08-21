@@ -1,5 +1,6 @@
 ### Only For Github Actions
 CLOUDFLARE_API_TOKEN="xxx"
+CLOUDFLARE_ACCOUNT_ID="xxx"
 
 ### Resend 邮件发送服务，可自行注册免费发送
 ### Resend mail sending service, you can register for free sending
