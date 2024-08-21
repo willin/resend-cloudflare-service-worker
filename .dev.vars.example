@@ -1,0 +1,12 @@
+### Only For Github Actions
+CLOUDFLARE_API_TOKEN="xxx"
+
+### Resend 邮件发送服务，可自行注册免费发送
+### Resend mail sending service, you can register for free sending
+RESEND_API_KEY="re_xxxx"
+### 发送邮件的用户名
+### The username of the email sent
+EMAIL_USERNAME="No-Reply <no-reply@system.example.com>"
+### 发送测试邮件接收的地址
+### Address to receive test emails
+TEST_EMAIL_ADDRESS="your@email.com"
